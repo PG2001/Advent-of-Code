@@ -92,28 +92,6 @@ bool isSpelled(string in, int i, int &out)
 	return false;
 }
 
-int toInt(string in, int i)
-{
-	if (in.substr(i, 3).compare("one") == 0)
-		return 1;
-	if (in.substr(i, 3).compare("two") == 0)
-		return 2;
-	if (in.substr(i, 5).compare("three") == 0)
-		return 3;
-	if (in.substr(i, 4).compare("four") == 0)
-		return 4;
-	if (in.substr(i, 4).compare("five") == 0)
-		return 5;
-	if (in.substr(i, 3).compare("six") == 0)
-		return 6;
-	if (in.substr(i, 5).compare("seven") == 0)
-		return 7;
-	if (in.substr(i, 5).compare("eight") == 0)
-		return 8;
-	if (in.substr(i, 4).compare("nine") == 0)
-		return 9;
-}
-
 int two()
 {
 	fstream input;
