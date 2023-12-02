@@ -5,7 +5,7 @@
 #include <ctype.h>
 
 using namespace std;
-int one_day1()
+int one()
 {	
 	fstream input;
 	input.open("Day1.txt");
@@ -114,7 +114,7 @@ int toInt(string in, int i)
 		return 9;
 }
 
-int two_day1()
+int two()
 {
 	fstream input;
 	input.open("Day1.txt");
@@ -162,9 +162,9 @@ int two_day1()
 
 int main()
 {
-	cout << one_day1();
+	cout << one();
 	cout << "\n";
-	cout << two_day1();
+	cout << two();
 
 	return 0;
 }
