@@ -131,11 +131,7 @@ unsigned long long one()
     string line;
     unsigned long long sum = 0;
 
-    int numline = count(istreambuf_iterator<char>(input), istreambuf_iterator<char>(), '\n');
-    input.clear();
-    input.seekg(0, ios::beg);
-
-    vector<Hand> hands, final;
+    vector<Hand> hands;
 
     while (!input.eof())
     {
@@ -322,11 +318,7 @@ unsigned long long two()
     string line;
     unsigned long long sum = 0;
 
-    int numline = count(istreambuf_iterator<char>(input), istreambuf_iterator<char>(), '\n');
-    input.clear();
-    input.seekg(0, ios::beg);
-
-    vector<JHand> hands, final;
+    vector<JHand> hands;
 
     while (!input.eof())
     {
