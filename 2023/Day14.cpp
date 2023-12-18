@@ -47,9 +47,7 @@ void moveNorth(std::vector<std::vector<char>>& map)
                         if (rr < 0)
                             break;
                     }
-
                 }
-
             }
         }
     }
@@ -78,9 +76,7 @@ void moveWest(std::vector<std::vector<char>>& map)
                         if (cc < 0)
                             break;
                     }
-
                 }
-
             }
         }
     }
@@ -109,9 +105,7 @@ void moveSouth(std::vector<std::vector<char>>& map)
                         if (rr > map.size() - 1)
                             break;
                     }
-
                 }
-
             }
         }
     }
@@ -140,9 +134,7 @@ void moveEast(std::vector<std::vector<char>>& map)
                         if (cc > map[0].size() - 1)
                             break;
                     }
-
                 }
-
             }
         }
     }

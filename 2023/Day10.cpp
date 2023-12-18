@@ -337,7 +337,6 @@ int two()
                         z.push_back(' '); z.push_back('|');z.push_back(' ');
                     }
                 }
-
                 if (c + 1 < maze[0].size() && c - 1 > 0)
                 {
                     if ( // -
